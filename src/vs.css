@@ -1,0 +1,15 @@
+.pokeFighters {
+  display: flex;
+  flex-direction: row;
+}
+
+.vs-tag {
+  display: flex;
+  align-items: center;
+}
+
+.fight-button {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+}
