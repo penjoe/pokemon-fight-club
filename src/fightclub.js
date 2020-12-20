@@ -1,5 +1,5 @@
-import React, {useState, useEffect} from 'react';
-import {Switch, Case, Default} from 'react-if'
+import React, {useState} from 'react';
+import {Switch, Case} from 'react-if'
 import Start from './start.js';
 import Vs from './vs.js';
 import Winner from './winner.js';

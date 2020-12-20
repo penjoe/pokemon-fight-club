@@ -19,8 +19,8 @@ function Vs(props) {
 
     let px1 = {...p1};
     let px2 = {...p2};
-    px1.stats[0].base_stat = Math.round(px1.stats[0].base_stat + px1.stats[2].base_stat) - px2.stats[1].base_stat);
-    px2.stats[0].base_stat = Math.round(px2.stats[0].base_stat + px2.stats[2].base_stat - px1.stats[1].base_stat);
+    px1.stats[0].base_stat = Math.round((px1.stats[0].base_stat + px1.stats[2].base_stat) - px2.stats[1].base_stat);
+    px2.stats[0].base_stat = Math.round((px2.stats[0].base_stat + px2.stats[2].base_stat) - px1.stats[1].base_stat);
     // px1.stats[0].base_stat = Math.round((px1.stats[0]));
 
     if (px1.stats[0].base_stat <= 0) {  
